@@ -1,0 +1,46 @@
+@media screen and (max-width: 1000px) {
+    .lay {
+        height: 255px;
+        width: 194px;
+        opacity: 0%;
+        background-color: #00000087;
+        border-radius: 10px;
+        transition: 600ms;
+    }
+
+    .nav-item-gap {
+        margin: 0 0;
+    }
+
+    .nav-TV-gap {
+        margin-left: 0px;
+    }
+
+    .box-item-container {
+        display: flex;
+        flex-direction: row;
+        /* margin: 20px; */
+        margin-top: 20px;
+        justify-content: start;
+        overflow: scroll;
+    }
+
+    .recommended-item-container .items {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-top: 15px;
+        overflow: scroll;
+    }
+
+    .recommended-item-container {
+        margin: 20px 0;
+    }
+
+    .input-fild {
+        width: 143px;
+    }
+    .input-fild:focus {
+        border-bottom: 1px solid rgb(0, 183, 255);
+    }
+}
